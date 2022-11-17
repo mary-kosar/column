@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.row {
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.col {
+    background-color: orange;
+    flex: 0 1 calc(50% -30px);
+    height: 30px;
+}
+
+.col1 {
+    background-color: orange;
+    flex: 0 1 auto;
+    height: 30px;
+}
+
+.col6 {
+    background-color: orange;
+    flex: 0 1 calc(50% - 30px);
+    height: 30px;
+}
+
+.col4 {
+    background-color: orange;
+    flex: 0 1 calc(33.3% - 30px);
+    height: 30px;
+}
+
+.col3 {
+    background-color: orange;
+    flex: 0 1 calc(25% - 30px);
+    height: 30px;
+}
+
+.col5 {
+    background-color: orange;
+    flex: 0 1 calc(20% - 30px);
+    height: 30px;
+}
+
+.col2 {
+    background-color: orange;
+    flex: 0 1 calc(16.6% - 30px);
+    height: 30px;
+}
+
+.col7 {
+    background-color: #ffa500;
+    flex: 0 1 calc(14.3% - 30px);
+    height: 30px;
+}
+
+.col8 {
+    background-color: orange;
+    flex: 0 1 calc(12.5% - 30px);
+    height: 30px;
+}
+
+.col9 {
+    background-color: orange;
+    flex: 0 1 calc(11.11% - 30px);
+    height: 30px;
+}
+
+.col10 {
+    background-color: orange;
+    flex: 0 1 calc(10% - 30px);
+    height: 30px;
+}
+
+.col11 {
+    background-color: orange;
+    flex: 0 1 calc(9.09% - 30px);
+    height: 30px;
+}
+
+.col1 {
+    background-color: orange;
+    flex: 0 1 calc(8.3% - 30px);
+    height: 30px;
+}
