@@ -13,15 +13,9 @@ body {
     flex-wrap: wrap;
 }
 
-.col {
+.col12 {
     background-color: orange;
-    flex: 0 1 calc(50% - 30px);
-    height: 30px;
-}
-
-.col1 {
-    background-color: orange;
-    flex: 0 1 auto;
+    flex: 0 1 100%;
     height: 30px;
 }
 
